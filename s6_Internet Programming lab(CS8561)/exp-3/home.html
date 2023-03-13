@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation - checking non-empty</title>
+<link rel='stylesheet' href='style.css' type='text/css' />
+</head><br><body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Input Credit Card No.[Starting with 4 length 13 or 16 digits (Visa) and
+Submit]</h2>
+<form name="form1" action="#">
+<ul>
+<li><input autocomplete="off" type="text" name="text1"/></li>
+<br>
+<li class="submit"><input type="submit" name="submit" value="Submit"
+onclick="cardnumber(document.form1.text1)"/></li>
+<br>
+</ul>
+</form>
+</div>
+<script src="creditcard.js"></script>
+</body>
+</html>
