@@ -1,3 +1,3 @@
-# Smce-practicals Excercices
+# Smce-practical Excercices
 
 
